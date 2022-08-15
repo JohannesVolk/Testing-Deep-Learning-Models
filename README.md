@@ -2,9 +2,8 @@
 
 This project was part of the 2021 [Advanced Software Testing seminar](https://www.cs.cit.tum.de/sse/lehre/software-qualitaet/) at the Technical University of Munich. 
 
-The goal of this seminar paper was to compare compares recent methodologies for testing Deep
-Learning models among themselves and other more traditional software
-testing approaches.
+The goal of [this seminar paper](Testing_DL_Models_seminar_paper.pdf) was to compare compares recent methodologies for testing Deep
+Learning models among themselves and other more traditional software testing approaches.
 In the first part a short introduction to feedforward neural networks is given and
 different properties relevant to testing these systems are explained and illustrated with examples.
 In the second part the presented concepts are applied by putting the robustness of an [open-source MNIST classification model](https://github.com/dangeng/Simple_Adversarial_Examples) to the test.
@@ -38,14 +37,12 @@ This attack pattern is constructed with back-propagation in a way that the model
 
 The resulting image gets misclassified with high probability on the wrong label.
 
-
 | source img | attack pattern | finished adversarial example |
 |---------|------------------------------|------------------|
 | <img src="imgs/source.png" width="250" height="250" />    |  <img src="imgs/attackPattern.png" width="250" height="250" /> | <img src="imgs/adversarial.png" width="250" height="250" /> |
 
 
-
-This can be a severe problem for other applications of Deep Learning for example in Traffic Sign Classification (e.g. see this research project).
+This can be a severe problem for other applications of Deep Learning for example in Traffic Sign Classification as the classification task at hand is safety-critical.
 
 ## Confidence through Analysis of Neuron Coverage
 
