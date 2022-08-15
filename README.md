@@ -23,9 +23,9 @@ Further, [recently proposed](https://arxiv.org/abs/2101.12100) neuron activation
 One can capture live footage of handwritten digits with a camera (e.g. smartphone).
 These digits are processed and put into a format the neural network can use (see below).
 
-<img src="imgs/unprocessed.png" width="150" height="150" />
-<img src="imgs/processing1.png" width="150" height="150" />
-<img src="imgs/processing2.png" width="150" height="150" />
+| raw capture | cropping & normalizing | treshhold filter |
+|---------|------------------------------|------------------|
+| <img src="imgs/unprocessed.png" width="300" height="300" />    |  <img src="imgs/processing1.png" width="300" height="300" /> | <img src="imgs/processing2.png" width="300" height="300" /> |
 
 The model will predict these digits with high accuracy as they are very similar to the ones in the MNIST dataset.
 
@@ -35,9 +35,11 @@ But when one creates an so called adversarial attack the model can be fooled.
 For example a digit five, displayed below, is merged with an attack pattern that fools the model.
 The resulting image gets misclassified with high probability on the wrong label.
 
-<img src="imgs/source.png" width="150" height="150" />
-<img src="imgs/attackPattern.png" width="150" height="150" />
-<img src="imgs/adversarial.png" width="150" height="150" />
+
+| source img | attack pattern | finished adversarial example |
+|---------|------------------------------|------------------|
+| <img src="imgs/source.png" width="300" height="300" />    |  <img src="imgs/attackPattern.png" width="300" height="300" /> | <img src="imgs/adversarial.png" width="300" height="300" /> |
+
 
 
 This can be a severe problem for other applications of Deep Learning for example in Traffic Sign Classification (e.g. see this research project).
