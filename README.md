@@ -14,6 +14,8 @@ Disclaimer:
 
 Further, [recently proposed](https://arxiv.org/abs/2101.12100) neuron activation metrics for adversarial attack detection are explored and re-implemented.
 
+This Project was graded with 1.3 (with 1 beeing the best and 4 the worst passing grade)
+
 # Application
 
 ## Pipeline
