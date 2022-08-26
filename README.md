@@ -61,61 +61,6 @@ In the following figure from Guilio et al. paper, one can see the difference in 
 
 It can be concluded that the adversarial attack on the lower image causes a strong deviation from the recorded behaviour that is usually observed with other images of the predicted class.
 
-\begin{figure}[!ht]
-    \captionsetup[subfigure]{labelformat=empty}
-    \centering
-    \subfloat[\centering 0]{{\includegraphics[width=15mm]{figures/pattern/0.png}}}
-    \qquad
-    \subfloat[\centering 1]{{\includegraphics[width=15mm]{figures/pattern/1.png}}}
-    \qquad
-    \subfloat[\centering 2]{{\includegraphics[width=15mm]{figures/pattern/2.png}}}
-    \qquad
-    \subfloat[\centering 3]{{\includegraphics[width=15mm]{figures/pattern/3.png}}}
-    \qquad
-    \subfloat[\centering 4]{{\includegraphics[width=15mm]{figures/pattern/4.png}}}
-    \qquad
-    \subfloat[\centering 5]{{\includegraphics[width=15mm]{figures/pattern/5.png}}}
-    \qquad
-    \subfloat[\centering 6]{{\includegraphics[width=15mm]{figures/pattern/6.png}}}
-    \qquad
-    \subfloat[\centering 7]{{\includegraphics[width=15mm]{figures/pattern/7.png}}}
-    \qquad
-    \subfloat[\centering 8]{{\includegraphics[width=15mm]{figures/pattern/8.png}}}
-    \qquad
-    \subfloat[\centering 9]{{\includegraphics[width=15mm]{figures/pattern/9.png}}}
-    \qquad
-    \caption{Plots of \ac{src} activation patterns with 100 recorded neurons}
-    \label{fig:ownActivationPatterns}
-\end{figure}
-%
-\begin{figure}[!ht]
-    \captionsetup[subfigure]{labelformat=empty}
-    \centering
-    \subfloat[\centering 0]{{\includegraphics[width=15mm]{figures/pattern/big0.png}}}
-    \qquad
-    \subfloat[\centering 1]{{\includegraphics[width=15mm]{figures/pattern/big1.png}}}
-    \qquad
-    \subfloat[\centering 2]{{\includegraphics[width=15mm]{figures/pattern/big2.png}}}
-    \qquad
-    \subfloat[\centering 3]{{\includegraphics[width=15mm]{figures/pattern/big3.png}}}
-    \qquad
-    \subfloat[\centering 4]{{\includegraphics[width=15mm]{figures/pattern/big4.png}}}
-    \qquad
-    \subfloat[\centering 5]{{\includegraphics[width=15mm]{figures/pattern/big5.png}}}
-    \qquad
-    \subfloat[\centering 6]{{\includegraphics[width=15mm]{figures/pattern/big6.png}}}
-    \qquad
-    \subfloat[\centering 7]{{\includegraphics[width=15mm]{figures/pattern/big7.png}}}
-    \qquad
-    \subfloat[\centering 8]{{\includegraphics[width=15mm]{figures/pattern/big8.png}}}
-    \qquad
-    \subfloat[\centering 9]{{\includegraphics[width=15mm]{figures/pattern/big9.png}}}
-    \qquad
-    \caption{Plots of \ac{src} activation Patterns with 784 recorded neurons}
-    \label{fig:ownActivationPatternsBig}
-\end{figure}
-
-
 ## Conclusion
 
 The results show that [the approach of Guilio et al.](https://arxiv.org/abs/2101.12100) is able to detect adversarial attacks in context of the MNIST digit classification.
