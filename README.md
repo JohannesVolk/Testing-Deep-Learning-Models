@@ -59,7 +59,7 @@ In the plot below, one can see the difference in neuronal activity between the p
 
 <center><img src="imgs/detection.png" width="750" height="750" /></center>
 
-I can be concluded that the adversarial attack on the lower image causes a strong deviation from the recorded behaviour that is usually observed with other images of the predicted class.
+It can be concluded that the adversarial attack on the lower image causes a strong deviation from the recorded behaviour that is usually observed with other images of the predicted class.
 
 ## Conclusion
 
