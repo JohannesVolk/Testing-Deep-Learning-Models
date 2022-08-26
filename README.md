@@ -75,6 +75,8 @@ The results show that [the approach of Guilio et al.](https://arxiv.org/abs/2101
 Therfore traditional testing metrics like test coverage can be modified and used within the domain of Deep Learning.
 By taking a look inside the black box, neuron coverage could provide relevant insights in the workings of DNN's and make AI more understandable.
 
+Further research could explore more complex classification tasks with more advanced architectures like CNN's or Transformer-based models.
+
 
 
 
