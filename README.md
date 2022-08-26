@@ -51,7 +51,7 @@ This can be a serious problem in other applications of Deep Learning, such as Tr
 In 2021 Guilio et al. proposed [a novel approach](https://arxiv.org/abs/2101.12100) to increase the confidence in DNNs by analyzing the coverage of the neurons in forward passes during developement.
 
 The idea is to document how different input classes activate individiual neurons differently.
-For each class, an aggregated pattern is constructed according to a so-called "Coverage Analysis Methods" (e.g. interval of all observed activation values). For more details, please see my seminar paper or the original paper.
+For each class, an aggregated pattern is constructed according to a so-called "Coverage Analysis Methods" (CAMs) (e.g. interval of all observed activation values). For more details, please see my seminar paper or the original paper.
 The hypothesis is that adverserial attacks cause unusual activity within neurons and an attack can be detected.
 
 In the following figure from Guilio et al. paper, one can see the difference in neuronal activity between the pre-recorded activation ranges and the live values in the forward pass of the corresponding example. Example a) is the original captured image, and b) is the adversarial attack generated from a). The channels are the activation ranges per neuron in one of the hidden layers.
@@ -60,6 +60,14 @@ In the following figure from Guilio et al. paper, one can see the difference in 
 <center><img src="imgs/detection.png" width="750" height="750" /></center>
 
 It can be concluded that the adversarial attack on the lower image causes a strong deviation from the recorded behaviour that is usually observed with other images of the predicted class.
+
+
+One can also display the recorded pattern by simply generating a heatmap that for simplicity just plots the mangnitude of the activation range for each recorded neuron within one pixel (Guilio et al. call the used aggregation method/CAM: "Single Range Coverage"). The following patterns were generated with a small model (with only 100 recorded neurons in the hidden layer).
+
+<center><img src="imgs/src_pattern_100.png" /></center>
+
+Even for a very basic model, it is clear that that classes activate the neurons in distinct patterns. Some classes have specific neurons whose activation stands out compared to neighboring neurons.
+
 
 ## Conclusion
 
