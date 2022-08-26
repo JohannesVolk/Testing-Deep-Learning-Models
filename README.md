@@ -12,7 +12,7 @@ Please Note:
 - the code for model and generation of adversarial examples originates from the linked repository and was adapted for this project
 - it is kept as simple as possible and doesn't use a framework like PyTorch or Tensorflow in order to fully control every part of the model
 
-In addition, [recently proposed](https://arxiv.org/abs/2101.12100) neuron activation metrics for adversarial attack detection are explored and re-implemented.
+In addition, neuron activation metrics for adversarial attack detection ([proposed in this 2021 paper](https://arxiv.org/abs/2101.12100)) are explored and re-implemented.
 
 This project was graded with 1.3 (with 1 beeing the best and 4 the worst passing grade)
 
