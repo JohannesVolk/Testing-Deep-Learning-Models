@@ -66,7 +66,7 @@ One can also display the recorded pattern by simply generating a heatmap that fo
 
 <center><img src="imgs/src_pattern_100.png" /></center>
 
-Even for a very basic model, it is clear that that classes activate the neurons in distinct patterns. Some classes have specific neurons whose activation stands out compared to neighboring neurons.
+Even for a very basic model, it is clear that that classes activate the neurons in distinct patterns. Some classes have specific neurons whose activation stands out compared to neighboring neurons. Therfore, if this neurons are activated, but a unusual class is predicted, the user will be alerted about a lack of confidence in the predicted class probabilities.
 
 
 ## Conclusion
