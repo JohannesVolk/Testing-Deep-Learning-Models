@@ -54,7 +54,7 @@ The idea is to document how different input classes activate individiual neurons
 For each class, an aggregated pattern is constructed according to a so-called "Coverage Analysis Methods" (e.g. interval of all observed activation values). For more details, please see my seminar paper or the original paper.
 The hypothesis is that adverserial attacks cause unusual activity within neurons and an attack can be detected.
 
-In the plot below, one can see the difference in neuronal activity between the pre-recorded activation ranges and the live values in the forward pass of the corresponding example. Example a) is the original captured image, and b) is the adversarial attack generated from a). The channels are the activation ranges per neuron in the hidden layer.
+In the plot below, one can see the difference in neuronal activity between the pre-recorded activation ranges and the live values in the forward pass of the corresponding example. Example a) is the original captured image, and b) is the adversarial attack generated from a). The channels are the activation ranges per neuron in one of the hidden layers.
 - the attack pattern used here is very subtle, so please note the slightly discolored spots in the background
 
 <center><img src="imgs/detection.png" width="750" height="750" /></center>
